@@ -1,2 +1,7 @@
 projects:
+<<<<<<< HEAD
   - name: qteam-demo-analytics
+=======
+  - name: qteam_demo_analytics
+  - name: sales
+>>>>>>> 722aa14cec91e1e574d3e0d5abe2a5f91561ffb1

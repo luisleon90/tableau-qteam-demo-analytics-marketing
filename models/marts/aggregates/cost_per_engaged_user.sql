@@ -2,7 +2,7 @@ with engaged_users as (
     select * from {{ ref('int_engaged_users') }}
 ),
 ad_spend_per_adv as (
-    select * from {{ ref('sales','ad_spend_per_adv') }}
+    select * from {{ ref('qteam_demo_sales','ad_spend_per_adv') }}
 ),
 
 cost_per_engaged_user as (

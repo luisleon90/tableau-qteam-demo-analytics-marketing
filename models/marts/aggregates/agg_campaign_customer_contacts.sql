@@ -14,7 +14,7 @@ with campaign as (
 
 customer as (
 
-    select * from {{ ref('analytics','dim_customers',v=1) }}
+    select * from {{ ref('qteam_demo_analytics','dim_customers',v=1) }}
 
 ),
 
